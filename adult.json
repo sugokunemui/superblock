@@ -1,0 +1,3175 @@
+[
+{  
+	"action":{  
+		"type":"block"
+	},
+	"trigger":{  
+		"url-filter":".+/pop\\.js",
+	}
+}, 
+{  
+	"action":{  
+		"type":"block"
+	},
+	"trigger":{  
+		"url-filter":".+/pop\\.min\\.js"
+	}
+}, 
+{  
+	"action":{  
+		"type":"block"
+	},
+	"trigger":{  
+		"url-filter":".+/popup\\.js"
+	}
+},
+{  
+	"action":{  
+		"type":"block"
+	},
+	"trigger":{  
+		"url-filter":".+/ad/.+"
+	}
+}, 
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='kir.jp/ad_']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "div[id*='imobile_adspot']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": ".adnetflame"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": ".adframebanner"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": ".titleListAd"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "#titleListAd"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": ".pop-advertise"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": ".sponsored_link"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": ".sponsoredlink"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": ".sponsoredLink"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": ".pop-fade"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": ".advertisment"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "#topAds"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "#bottomAds"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "#floatingAdContainer"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "#videopageadblock"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "#divExoLayerWrapper"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "topadblock"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "bottomadblock"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='black-diamond.asia']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='burning-phoenix.kir.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='ad.aspm.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='ac-max.kir.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='yicha.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='deaicute.com']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='soraad.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='trafficjp.com']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='chmato.me']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='blogroll.livedoor.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='koukoku.red']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='casa24ore.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='trafficjp.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='deaicute.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adrcf.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='soraad.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='i.mt2.in']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='cache.imona.me']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='api.accelarts.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='cdn.yoyakucdn.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='j.adticker.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='alist.unitedblades.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='j.guile.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='meta.wikimedia.org']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='sprout-ad.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='iadsdk.apple.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='qwapi.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='r.yoz.io']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adtilt.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='chmato.me']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='muimerpni.biz']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adnxs.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='uctrack.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ads.smartstream.tv']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='deliver.ads2.iid.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='tapjoyad.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='chango.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='d27p6w3wtgpjlw.cloudfront.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='art.d2c.ne.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='j.adticker.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='a.t.webtracker.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='cdn.at.atwola.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='trafficjunky.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='img.adpon.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='aceking.info']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='d.5.to']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.smaad.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='doprads.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adcolony.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='hastrk2.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='d3v1lb83psg9di.cloudfront.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='cloudads-a.akamaihd.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='zucks.net.zimg.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='pyxis-social.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='linksynergy.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='gamefeat.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='click.adzcore.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='logly.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad-move.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ccrt.biz']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='i.exit-ad.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='4clvr.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='d1zucahx0d2hqt.cloudfront.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='maad.maru.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='sp-image.rinad.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='a1.goo.ne.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='imp.asahi.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad-banners.co']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='image-ad.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='admin.ad-count.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='bs.serving-sys.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.app-liv.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ads.nexage.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='aid-ad.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adtune.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='jumptap.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='greystripe.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='apsalar.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='tapjoyads.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.applipromotion.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='skimresources.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adplatform.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adpriv.nikkei.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adb.nikkei.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='sumapo.org']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='cdn.skyrocketapp.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='turn.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='control.kochava.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='hastrk1.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='hastrk2.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='hastrk3.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='api-01.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='api-02.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='api-03.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='api-04.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='api-05.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ads.mdotm.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='impact.applifier.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='redc.sakura.ne.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='fout.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='criteo.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad-x.co.uk']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='free-video-movie.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='tapone.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='a.dopr.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='link-a.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='tictacti.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='media-rep.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='serving-sys.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='trax-ad.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='proxy.img.mc0.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='moba8.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='focas.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='public.astrsk.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='img.astrsk.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='images.astrsk.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.aspm.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='aspm.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='js.bspd.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='amoad.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adsee.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='yicha.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='socdm.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='hbb.afl.rakuten.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='owb101.goo.ne.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='img.ad-trip.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='creative.extendmedia.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.extendmedia.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='bizad.nikkeibp.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='router.infolinks.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='advertising.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad-v.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ads.mopub.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='xrwd.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='app-adforce.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='burning-phoenix.kir.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ac-max.kir.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad-shot.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='san-ni-ichi.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad2.shallwead.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='apbox.naver.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='m.apbox.naver.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adimg3.search.naver.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='cauly.co.kr']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='livepoint.co.kr']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='m.adtc.daum.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adtc.daum.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='alea.adam.daum.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adcube.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='t-ad.co.kr']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='im-ad.co.kr']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='front.aid-ad.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='otapict.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='static.ak.fbcdn.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='opr.formulas.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='nb.gamevil.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='img02.gamevil.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='textad.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='s3.buysellads.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='stats.buysellads.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='wac.250f.edgecastcdn.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='api.behaviad.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='d.href.asia']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adsta.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ox-i.ad-maker.info']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='sy-tr.eamobile.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='synergy.eamobile.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='api.unthem.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adc.media-rep.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='consearch.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='sp.gmossp-sp.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='image.smart-c.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='axia-hakusan.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='a8.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='moba8.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad-stir.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adv.addeluxe.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='sp.adingo.jp.eimg.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='img.fluct.jp.eimg.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adingo.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adfurikun.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='t.adcrops.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='js.adjust-sp.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='advg.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='cdn.krxd.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adjust-net.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adimg.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adlantis.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='i.adimg.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='admeld.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='admob.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adresult-sp.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adroute.focas.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='mob.adwhirl.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='airpush.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='spstatic.ameba.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.pr.ameba.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='amoad.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='appads.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='sp-click2.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='click-search.org']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ads.888media.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.dmm.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='aqua.dmm.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adn.dmm.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='apps5.oingo.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='www.appliedsemantics.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='service.urchin.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='2mdn.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='cc-dt.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='dartsearch.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='doubleclick.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adimp.excite.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='md.exblog.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='flurry.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='fm-p.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='gsspcln.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='gssprt.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='genieesspv.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='a.geniee.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='a.appier.mobi']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='innovatenetworks.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='gigazine.asia']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.gunosy.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adapi.gunosy.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adntokyo.gunosy.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='creatives.gunosy.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='red.st-hatena.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='i2i.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='i2i.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='inmobi-jp.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='inmobi.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='inmobicdn.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='impact-ad.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ngs.impress.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='iogous.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='dlv.itmedia.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='sp.ads.jlisting.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.jorudan.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='kau.li']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='leadbolt.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='app.click.livedoor.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ck.rd.livedoor.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='liveads.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='moras.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.mdn.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='media-b.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad-maker.info']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='medibaad.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='maist.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.mega-r.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ads.mixi.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='pr.m.mixi.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='pr.mixi.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='img.ads.mreco0.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='mtburn.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='dspcdn.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='mydas.mobi']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ads1.msn.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='g.msn.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='msads.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ads.nicovideo.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='clink.nifty.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='s.jimdo.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adm.shinobi.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='intr.shinobi.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='v2st.shinobi.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='octopuspop.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='cdnjs.cloudflare.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='api.cloudflare.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='openclick.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='openclik.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='serv.ads.pixiv.org']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='d.pixiv.org']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='popin.cc']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ads.doko.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ias.rakuten.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='affiliate.rakuten.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='sankei2ad.durasite.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='searchteria.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='match.seesaa.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adsymptotic.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='as.adfonic.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='img.ads.mocean.mobi']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='conn.skype.commsntest.serving-sys.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='cdn.atdmt.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='rad.msn.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ac3.msn.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='aka-cdn-ns.adtech.de']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='secure.flashtalking.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad-emea.doubleclick.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='live.rads.msn.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='secure.img-cdn.mediaplex.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.msn.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.cnn.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.bbc.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='trafficgate.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='trackword.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.jp.valuecommerce.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ad.jp.ap.valuecommerce.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='yjaxc.yahoo.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='im.ecnavi.ov.yahoo.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='smartads.mobile.yahoo.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='yads.yahoo.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='im.ov.yahoo.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='bc.geocities.yahoo.co.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='im.c.yimg.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ads.yahoo.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='yads.c.yimg.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='webtracker.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ximad.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='xlisting.jp']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='trafficfactory.biz']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adm.fwmrm.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='ads.youtube.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='googlesyndication.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='www.mygooglepagerank.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='google.tucows.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='googleadsense.ya.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='adservices.google.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='video-stats.video.google.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='google-analytics.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='googleadservices.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='doubleclick.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='doubleclick.shockwave.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='d.href.org.uk']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='bid.openx.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='yieldmanager.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='content.yieldmanager.edgesuite.net']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+},
+{  
+	"action":{  
+		"type":"css-display-none",
+		"selector":"a[href*='360yield.com']"
+	},
+	"trigger":{  
+		"url-filter":".*"
+	}
+}
+]

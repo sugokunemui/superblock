@@ -1,0 +1,100 @@
+[
+{  
+	"action":{  
+		"type":"block"
+	},
+	"trigger":{  
+		"url-filter":"//blogroll.livedoor.net/js/blogroll.js"
+	}
+}, 
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "div[id*='rss']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "div[class*='rss']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='2ch-c.net']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='moudamepo.com']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='get2ch.net']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='matomeantena.com']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='owata.chann.net']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='new-soku.net']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='tokkaban.com']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+},
+{
+	"action": {
+		"type": "css-display-none",
+		"selector": "a[href*='newmofu.doorblog.jp']"
+	},
+	"trigger": {
+		"url-filter": ".*"
+	}
+}
+]
